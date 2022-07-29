@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: normal;
+    font-size: 16px;
+}
+body{
+    background-image:  url('../assets/Group\ 233.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 130px;
+}
+
+.row{
+    background-color: white;
+}
+
+.gfg {
+    position: relative;
+}
+
+.first-txt {
+    position: absolute;
+    top: 45%;
+    left: 51px;
+    font-weight: 900;
+    font-size: 2.75rem;
+    color: #FFFFFF;
+}
+
+.second-txt {
+    position: absolute;
+    top: 53%;
+    left: 90px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.logo-img{
+    position: absolute;
+    top: 83%;
+    left: 150px;
+}
+
+.head{
+    font-size:40px;
+    color: #28233C;
+}
+.para{
+    font-size: 15px;
+    color: #ADA9BF;
+}
+
+.labelling{
+    font-size:15px;
+    color: #353047;
+}
+
+input[type=email],input[type=password],input[type=text],select{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(53,48,71)
+}
+
+input:focus, select:focus{
+    outline: none;
+}
+
+::placeholder {
+    color: #363147;
+    opacity: 0.2;
+}
+
+.box-check{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+i{
+    position: relative;
+    top:45%;
+}
+
+.btn-default.btn
+{
+    background: transparent linear-gradient(248deg, #501769 0%, #382780 100%);
+    border-radius: 2px;
+    font-size:18px;
+    color: #FFFFFF; 
+}
+.para2{
+    font-size:14px;
+    color: #363147;
+}
+.para2 a{
+    font-size:14px;
+    font-weight: bold;
+    color: #3F2985;
+}
+
+@media (max-width:750px){
+
+    .first-txt {
+        position: absolute;
+        top: 45%;
+        left: 0px;
+        font-weight: 900;
+        font-size: 2rem;
+        color: #FFFFFF;
+    }
+    
+    .second-txt {
+        position: absolute;
+        top: 53%;
+        left: 0px;
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+    .logo-img{
+        position: absolute;
+        top: 0%;
+        left: 20px;
+    }
+}
+

@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: normal;
+    font-size: 16px;
+}
+body{
+    background-image:  url('../assets/Group\ 233.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 130px;
+}
+
+.row{
+    background-color: white;
+}
+
+.gfg {
+    position: relative;
+}
+
+.first-txt {
+    position: absolute;
+    top: 45%;
+    left: 51px;
+    font-weight: 900;
+    font-size: 2.75rem;
+    color: #FFFFFF;
+}
+
+.second-txt {
+    position: absolute;
+    top: 53%;
+    left: 90px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.logo-img{
+    position: absolute;
+    top: 83%;
+    left: 150px;
+}
+
+.groupImage{
+   position: relative;
+   top: 80px;
+   left:100px;
+   width: 184px;
+   height: 130px;
+}
+
+.first{
+   position: relative;
+   top: 100px;
+   left:70px;
+   font-size: 35px;
+   color: #28233C;
+}
+
+.second{
+    position: relative;
+    top: 120px;
+    color: #ADA9BF;
+    text-align: center;
+}
+
+.btn-default.btn
+{
+    background: transparent linear-gradient(248deg, #501769 0%, #382780 100%);
+    border-radius: 2px;
+    position: relative;
+    left:155px;
+    top: 120px;
+    font-size:15px;
+    color: #FFFFFF; 
+}
+
+@media (max-width:750px){
+
+    .first-txt {
+        position: absolute;
+        top: 45%;
+        left: 0px;
+        font-weight: 900;
+        font-size: 2rem;
+        color: #FFFFFF;
+    }
+    
+    .second-txt {
+        position: absolute;
+        top: 53%;
+        left: 0px;
+        font-size: 30px;
+        color: #FFFFFF;
+    }
+    .logo-img{
+        position: absolute;
+        top: 0%;
+        left: 20px;
+    }
+}
+
+@media (max-width:1200px){
+    .groupImage{
+        position: relative;
+        top: 20px;
+        left:30px;
+        width: 184px;
+        height: 130px;
+     }
+     
+     .first{
+        position: relative;
+        top: 40px;
+        left:30px;
+        font-size: 35px;
+        color: #28233C;
+     }
+     
+     .second{
+         position: relative;
+         top: 60px;
+         color: #ADA9BF;
+         text-align: center;
+     }
+     
+     .btn-default.btn
+     {
+         background: transparent linear-gradient(248deg, #501769 0%, #382780 100%);
+         border-radius: 2px;
+         position: relative;
+         left:70px;
+         top: 80px;
+         font-size:15px;
+         color: #FFFFFF; 
+     }
+}

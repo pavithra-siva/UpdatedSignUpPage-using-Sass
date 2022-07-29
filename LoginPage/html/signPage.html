@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="../css/signPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <section class="form">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-6 gfg">
+                    <img src="../assets/Group 232.png" alt="Back-img" title="CoverImage" class="img-fluid coverImage">
+                    <h1 class="first-txt">Our Philosphy</h1>
+                    <p class="second-txt">Attention. Always.</p>
+                    <img src="../assets/Image 56.png" alt="Logo-img" title="LogoImage" class="img-fluid logo-img">
+                </div>
+                <div class="col-lg-6 pt-4 pl-5">
+                    <h1 class="head">Hello!</h1>
+                    <p class="para">Employee Portal Sign Up</p>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-sm-9">
+                                <label class="labelling">Username</label>
+                                <input type="text" class="my-2" placeholder="Ramesh" name="username" id="username" autocomplete="off" required>
+                                <p id="usererrorMessage"></p>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-sm-9">
+                                <label class="labelling">Email</label>
+                                <input type="text" class="my-2" placeholder="Ramesh.kanniyappan@aspiresys.com" id="email" name="email" autocomplete="off">
+                                <p id="emailerrorMessage"></p>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-sm-9">
+                                <label class="labelling">Password</label>
+                                <input type="password" class="my-2" placeholder="***************" id="password" name="password" required>
+                                <p id="passerrorMessage"></p>
+                            </div>
+                            <span><i class="far fa-eye" id="togglePassword"></i></span>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-sm-9">
+                                <label class="labelling">Service Line</label><br>
+                                <select class="my-2" required>
+                                    <option>Usability Engineering</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <button class="btn btn-default mt-3 mb-4" type="submit" id="submit">
+                                    Create Your Account
+                                </button>
+                            </div>
+                        </div>
+                        <p class="para2">Already have an account? <a href="loginPage.html">Sign In</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="../js/password.js"></script>
+<script src="../js/validation.js"></script>
+</html>
